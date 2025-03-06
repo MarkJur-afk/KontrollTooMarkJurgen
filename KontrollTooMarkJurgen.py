@@ -41,7 +41,7 @@ except ValueError:
 import random
 N = random.randint(1, 20)
 print(f"Genereritud number {N}")
-num = [random.randint(-100, 100) for _ in range(N)]
+num = [random.randint(-100, 100) for i in range(N)]
 print(f"Genereritud numbrid {num}")
 positive = 0
 for num in num:

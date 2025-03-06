@@ -39,15 +39,18 @@ except ValueError:
 
 #Task3
 import random
+
 N = random.randint(1, 20)
 print(f"Genereritud number {N}")
-num = [random.randint(-100, 100) for i in range(N)]
-print(f"Genereritud numbrid {num}")
 positive = 0
-for num in num:
+for i in range(N):
+    num = random.randint(-100, 100)
+    print(f"Genereritud numbr: {num}")
     if num > 0:
         positive += 1
 print(f"Number of positive numbers: {positive}")
+
+
 
 #Task4
 num = int(input("Kirjuta naturalne number: "))
